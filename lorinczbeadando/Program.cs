@@ -39,6 +39,14 @@
             /// <returns>The smaller value</returns>
             public int Smaller(int num1, int num2)
             {
+                if (num1 < num2)
+                {
+                    return num1;
+                }
+                else
+                {
+                    return num2;
+                }
                 // TODO : Implement minimum comparison
                 throw new NotImplementedException();
             }
