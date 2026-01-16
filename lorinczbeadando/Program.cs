@@ -13,7 +13,7 @@
             /// <returns>The square of num</returns>
             public int Square(int num)
             {
-                return num * num;
+                return num * num ;
                 // TODO : Implement square calculation
                 throw new NotImplementedException();
             }
